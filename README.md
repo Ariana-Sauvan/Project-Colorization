@@ -119,6 +119,18 @@ Background regions remain the main challenge, which is a known limitation of MSE
 
 ---
 
+## Google Colab Version
+
+A Google Colab version of this project is available here:
+
+🔗 **Google Colab Notebook:** https://colab.research.google.com/drive/1WnCfFCKgOXLS5QpIlitaww5l9Sd9_Ztg?usp=sharing
+
+This notebook contains a slightly different implementation adapted for Colab (dataset loading, paths, GPU setup).
+
+
+---
+
+
 ## Requirements
 
 See `requirements.txt` for the full list of dependencies. Main libraries:

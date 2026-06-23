@@ -3,6 +3,8 @@
 This project implements a Convolutional Autoencoder (CAE) for self-supervised image colorization on the CelebA dataset.
 The model receives the L (lightness) channel of an image and predicts the AB chrominance channels in the LAB color space.
 
+**Project Repository:** https://github.com/Ariana-Sauvan/Project-Colorization
+
 ---
 
 ## Project Structure

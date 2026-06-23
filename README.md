@@ -76,7 +76,7 @@ datasets.CelebA(
     ]),
     download=True
 )
-
+```
 ---
 
 ## How to Run

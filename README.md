@@ -151,8 +151,3 @@ See `requirements.txt` for the full list of dependencies. Main libraries:
 - matplotlib
 - tqdm
 - Pillow
-EOF
-echo "Done"
-
-Sortie
-Done

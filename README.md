@@ -120,7 +120,6 @@ datasets.CelebA(
 | Training loss (epoch 1) | 0.0089 |
 | Training loss (epoch 20) | 0.0033 |
 | Validation loss (after epoch 20) | 0.0080 |
-| Test loss | [à compléter si tu l'évalues] |
 
 The model was trained for 20 epochs on the full training set (Google Colab GPU, about 25 minutes). The small gap between training and validation loss indicates mild overfitting, which is expected for a simple autoencoder without skip connections.
 

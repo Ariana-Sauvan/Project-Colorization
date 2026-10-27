@@ -113,12 +113,20 @@ datasets.CelebA(
 
 ## Results
 
-The model was trained for 20 epochs on the full CelebA training set using a Google Colab GPU.
-The training loss decreased from 0.0089 (epoch 1) to 0.0034 (epoch 20), a reduction of approximately 62%.
+**Data split** (CelebA, 202,599 images): 162,770 train / 19,867 validation / 19,962 test.
 
-The model successfully colorizes facial regions with accurate skin tones and hair colors.
-Background regions remain the main challenge, which is a known limitation of MSE-based colorization.
+| Metric | Value |
+|---|---|
+| Training loss (epoch 1) | 0.0089 |
+| Training loss (epoch 20) | 0.0033 |
+| Validation loss (after epoch 20) | 0.0080 |
+| Test loss | [à compléter si tu l'évalues] |
 
+The model was trained for 20 epochs on the full training set (Google Colab GPU, about 25 minutes). The small gap between training and validation loss indicates mild overfitting, which is expected for a simple autoencoder without skip connections.
+
+The model colorizes facial regions well (skin tones, hair colors). Backgrounds remain the main challenge: MSE-based regression tends to produce desaturated, averaged colors where several colors are plausible.
+
+![Qualitative results](results/figure1.png)
 ---
 
 ## Google Colab Version

@@ -126,7 +126,7 @@ The model was trained for 20 epochs on the full training set (Google Colab GPU, 
 
 The model colorizes facial regions well (skin tones, hair colors). Backgrounds remain the main challenge: MSE-based regression tends to produce desaturated, averaged colors where several colors are plausible.
 
-![Qualitative results](results/figure1.png)
+![Qualitative results](ResultsColabGPU.png)
 ---
 
 ## Google Colab Version
